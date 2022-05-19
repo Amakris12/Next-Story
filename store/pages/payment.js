@@ -4,7 +4,7 @@ export default function payment(){
     return( 
         <div>
             <nav className={styles.nav}>
-        <h2>Welcome to the Jersey Store</h2>
+        <h2>Purchase Your Jersey Here</h2>
         <ul>
           <a href="/">Home</a>
           {/* <a href="/about">About</a> */}
