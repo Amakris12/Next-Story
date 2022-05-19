@@ -1,33 +1,64 @@
 .nav {
-  border-bottom: 1px solid black;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: -2rem;
+  /* border-bottom: 1px solid white; */
+  /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 
 .nav h2 {
+  color: white;
   text-align: center;
   font-size: 4rem;
+  text-decoration: underline;
+  /* border-bottom: 1px solid white */
 }
 .nav ul {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  top: 2rem;
+  width: 40%;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
   flex-wrap: none;
   font-size: 1.5rem;
+  margin-top: -1rem;
+  /* background-color: rgb(56, 56, 56); */
 }
 .nav a {
+  margin-top: 1rem;
   color: red;
   font-weight: bold;
 }
 .nav a:hover {
-  color: black;
+  color: white;
   font-weight: bolder;
   text-decoration: underline;
 }
-
+.banner {
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 1rem;
+  width: 100%;
+  height: 40rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.pop {
+  position: relative;
+  top: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+}
+.line {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 .JerseyCard {
   width: 90%;
   margin-left: auto;
@@ -35,14 +66,316 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* border: 1px solid black; */
+  padding: 20px;
+}
+
+.JerseyCard div {
+  margin: 1rem;
   padding: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: white;
+}
+.JerseyCard h2 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.JerseyCard p {
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
 
 .JerseyCard img {
   width: 20rem;
   height: 20rem;
+}
+
+.JerseyCard button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 10rem;
+  height: 2rem;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 0.75rem;
+}
+.JerseyCard button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+.JerseyCard button:active {
+  background-color: red;
+}
+
+.contact {
+  margin-top: 2rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    #0000002b 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+  /* background-color: rgb(214, 214, 214) */
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.flex section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 1rem; */
+  padding: 20px;
+}
+.flex section h3 {
+  text-align: center;
+  color: white;
+}
+.flex section input {
+  margin-top: 1rem;
+}
+.flex section textarea {
+  margin-top: 1rem;
+}
+.flex article {
+}
+.flex article h3 {
+  text-align: center;
+  color: white;
+}
+.flex article p {
+  text-align: left;
+  font-size: 1.2rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.flex article button {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  margin-left: 1rem;
+}
+
+.login_box {
+  margin-top: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.login_box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login_box .user_box {
+  position: relative;
+}
+
+.login_box .user_box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login_box .user_box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login_box .user_box input:focus ~ label,
+.login_box .user_box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #f40303;
+  font-size: 12px;
+}
+
+.login_box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #f40303;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+}
+
+.login_box a:hover {
+  background: #f40303;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #f40303, 0 0 25px #f40303, 0 0 50px #f40303,
+    0 0 100px #f40303;
+}
+
+.login_box a span {
+  position: absolute;
+  display: block;
+}
+
+.login_box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #f40303);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.login_box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #f40303);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.login_box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #f40303);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.login_box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #f40303);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+.Player {
+  width: 40rem;
+  height: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius:.75rem;
+  padding: 20px;
+}
+
+.Player img {
+  width: 25rem;
+  height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Player h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.Player p {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.Player button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 0.75rem;
+  background-color: white;
+  height: 2rem;
+  width: 10rem;
+}
+
+.player button:active{
+  background-color:black;
+  color: whitesmoke;
 }
