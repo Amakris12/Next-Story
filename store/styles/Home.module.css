@@ -116,10 +116,7 @@
 .contact {
   margin-top: 2rem;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   padding: 20px;
-  /* background-color: rgb(214, 214, 214) */
 }
 
 .contact h2 {
@@ -129,8 +126,10 @@
 }
 .flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
 }
 .flexBTN {
@@ -146,7 +145,7 @@
   flex-direction: column;
   /* margin-top: 1rem; */
   padding: 20px;
-  width: 50%;
+  width: 100%;
 }
 .flex section h3 {
   text-align: center;
@@ -159,16 +158,16 @@
   margin-top: 1rem;
 }
 .flex article {
-  width: 50%;
+  width: 100%;
 }
 .flex article h3 {
   text-align: center;
   color: white;
 }
 .flex article p {
-  text-align: left;
+  text-align: center;
   font-size: 1.2rem;
-  width: 60%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   color: white;
@@ -357,7 +356,7 @@
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  border-radius:.75rem;
+  border-radius: 0.75rem;
   padding: 20px;
 }
 
@@ -391,7 +390,12 @@
   width: 10rem;
 }
 
-.player button:active{
-  background-color:black;
+.player button:active {
+  background-color: black;
   color: whitesmoke;
+}
+/* Credit Card */
+
+.payment{
+  
 }

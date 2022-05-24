@@ -7,13 +7,11 @@ export default function payment(){
         <h2>Purchase Your Jersey Here</h2>
         <ul>
           <a href="/">Home</a>
-          {/* <a href="/about">About</a> */}
           <a href="/contact">Contact</a>
           <a href="/login">Login</a>
-          {/* <a href="/payment">Pay</a> */}
         </ul>
         </nav>
-        {/* <img className={styles.banner} src="https://wallpaperaccess.com/full/1112635.jpg" alt="" /> */}
+       
         </div>
     )
 }
