@@ -9,7 +9,7 @@ export default function contact(){
                 <a href="/">Home</a>
                 {/* <a href="/about">About</a> */}
                 <a href="/contact">Contact</a>
-                <a href="/login">Login</a>
+                {/* <a href="/login">Login</a> */}
                 {/* <a href="/payment">Pay</a> */}
                 </ul>
             </nav>
